@@ -18,13 +18,14 @@ There are two paths to run this code:
    - Perform the same analysis on up to four provided companies using pre-existing CSVs.
    - These CSVs contain data otherwise requested by the Finnhub API.
 
-## Setting Up a Virtual Environment
+## Running the Program
 
 1. After cloning the repo to your machine, navigate to the project folder in GitBash/Terminal.
 2. Create a virtual environment in the project folder.
 3. Activate the virtual environment.
 4. Install the required packages.
-5. When done, deactivate the virtual environment.
+5. Launch Jupyter Lab and run the program
+6. When done, deactivate the virtual environment.
 
 ## Virtual Environment Commands
 
@@ -33,7 +34,10 @@ There are two paths to run this code:
 | **Create** | `python3 -m venv venv`          | `python -m venv venv`           |
 | **Activate** | `source venv/bin/activate`    | `source venv/Scripts/activate`  |
 | **Install** | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
+| **Launch Jupyter Lab** | `jupyter lab`      | `jupyter lab`                    |
 | **Deactivate** | `deactivate`                   | `deactivate`                    |
+
+
 
 ## Data Dictionary
 
